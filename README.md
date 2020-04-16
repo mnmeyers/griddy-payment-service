@@ -2,7 +2,7 @@
 
 ### Instructions on installation and running
 
-A. Install MongoDB
+#### 1. Install MongoDB
 * Choose the proper version for your OS to [download here](https://www.mongodb.com/download-center/community). 
 * Choose "current release"
 * The following instructions for running Mongo assume you have a Mac. 
@@ -25,20 +25,20 @@ instructions.
         
 
 
-B. (Assuming Go development environment is already set up)
-Run:
- * `go get`
- * `go build main.go`
- * `go run main.go`
+#### 2. Run app (Assumes Go development environment is already set up)
+* Run:
+    * `go get`
+    * `go build main.go`
+    * `go run main.go`
 
-*Sample data*:
+**Sample data**:
 * I have set up two test customers to use for the `account_id`:
     * `"cus_H6qtZhmCZZAy5R"`
     * `"cus_H6eFPQG4U7NZK7"`
 * My test API key for Stripe is hard coded into the app for ease
 of use
 
-*Sample Requests (in HTTP format)*:
+**Sample Requests (in HTTP format)**:
 ```
 GET http://localhost:3000/cus_H6qtZhmCZZAy5R/payments
 
