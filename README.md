@@ -36,7 +36,7 @@ instructions.
     * `"cus_H6qtZhmCZZAy5R"`
     * `"cus_H6eFPQG4U7NZK7"`
 * My test API key for Stripe is hard coded into the app for ease
-of use
+of use [1-5-23 UPDATE: KEY IS NOT ACTIVE, NO ONE GET EXCITED]
 
 **Sample Requests (in HTTP format)**:
 ```
